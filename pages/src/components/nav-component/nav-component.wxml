@@ -1,0 +1,6 @@
+<view wx:for='{{listData}}' wx:key='{{index}}' class='nav-components'>
+  <view bindtap='logoTap' data-name='{{item.type}}'>
+    <image mode='widthFix' class='image' src='{{item.path}}' />
+    <view>{{item.text}}</view>
+  </view>
+</view>

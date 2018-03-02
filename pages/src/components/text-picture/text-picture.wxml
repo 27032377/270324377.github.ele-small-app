@@ -1,0 +1,10 @@
+<view class='swiper'>
+  <block wx:for='{{list}}' wx:key='{{index}}'>
+    <view class='text-picture'>
+      <view class='title {{item.color}}'>{{item.title}}</view>
+      <view class='intro color-ccc'>{{item.intro1}}</view>
+      <view class='intro iconfont icon-you'>{{item.intro2}}</view>
+      <image class='image' mode='widthFix' src='{{item.path}}'></image>
+    </view>
+  </block>
+</view>

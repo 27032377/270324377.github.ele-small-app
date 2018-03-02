@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/src/views/takeOut/takeOut",
+    "pages/src/views/find/find",
+    "pages/src/views/order/order",
+    "pages/src/views/my/my",
+    "pages/src/views/address-manage/address-manage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#3366FF",
+    "navigationBarBackgroundColor": "#3366FF"
+  },
+  "tabBar": {
+    "color": "#969696",
+    "selectedColor": "#3366FF",
+    "list": [
+      {
+        "pagePath": "pages/src/views/takeOut/takeOut",
+        "text": "外卖",
+        "iconPath": "pages/src/assets/images/icon/icon-takeout.png",
+        "selectedIconPath": "pages/src/assets/images/icon/icon-takeout-s.png"
+      },
+      {
+        "pagePath": "pages/src/views/find/find",
+        "text": "发现",
+        "iconPath": "pages/src/assets/images/icon/icon-find.png",
+        "selectedIconPath": "pages/src/assets/images/icon/icon-find-s.png"
+      },
+      {
+        "pagePath": "pages/src/views/order/order",
+        "text": "订单",
+        "iconPath": "pages/src/assets/images/icon/icon-order.png",
+        "selectedIconPath": "pages/src/assets/images/icon/icon-order-s.png"
+      },
+      {
+        "pagePath": "pages/src/views/my/my",
+        "text": "我的",
+        "iconPath": "pages/src/assets/images/icon/icon-my.png",
+        "selectedIconPath": "pages/src/assets/images/icon/icon-my-s.png"
+      }
+    ]
+  }
+}

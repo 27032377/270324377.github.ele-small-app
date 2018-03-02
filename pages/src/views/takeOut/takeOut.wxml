@@ -1,0 +1,14 @@
+<view class='takeout'>
+  <takeout-header></takeout-header>
+  <takeout-swiper></takeout-swiper>
+  <takeout-nav bindnavClick='navTapEvent'></takeout-nav>
+  <view class='vip-box'>
+    <text decode='{{true}}' class='vtext-1 iconfont icon-jinggao'>&nbsp;&nbsp;超级会员 · </text>
+    <text class='vtext-2'>已为我节省238元</text>
+    <view class='money-til'>
+      <text class='vtext-3'>1 </text>
+      <text class='vtext-4 icon-you iconfont'>个奖励金</text>
+    </view>
+  </view>
+  <text-picture list='{{foodList}}'></text-picture>
+</view>

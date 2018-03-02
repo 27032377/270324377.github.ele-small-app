@@ -1,0 +1,33 @@
+@import '/pages/src/assets/fonts/font01/iconfont.wxss';
+.swiper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.text-picture{
+  width: 50%;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.text-red{
+  color: red;
+}
+.color-ccc{
+  color: #666;
+}
+.title{
+  font-size: 16px;
+  padding: 4rpx 30rpx;
+}
+.intro{
+  font-size: 12px;
+  padding: 4rpx 30rpx;
+}
+.image{
+  width: 70%;
+  float: right;
+  margin-right: 20rpx;
+}
+.color-grey{
+  color: #ccc;
+}

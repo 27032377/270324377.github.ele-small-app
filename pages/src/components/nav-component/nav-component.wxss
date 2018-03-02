@@ -1,0 +1,12 @@
+.nav-components{
+  width: 20%;
+  padding: 30rpx 10rpx;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #666;
+}
+.image{
+  width: 50%;
+}

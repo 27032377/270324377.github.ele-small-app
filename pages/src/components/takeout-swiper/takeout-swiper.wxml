@@ -1,0 +1,10 @@
+<swiper
+  autoplay
+  interval='3000'
+>
+  <block wx:for='{{swiperList}}' wx:key='{{index}}'>
+    <swiper-item>
+      <image style='{{imgWidth}}' mode='widthFix' src='{{item}}' />
+    </swiper-item>
+  </block>
+</swiper>

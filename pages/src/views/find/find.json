@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "find-nav":"/pages/src/components/find-nav/find-nav"
+  },
+  "navigationBarTitleText":"发现"
+}

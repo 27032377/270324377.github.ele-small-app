@@ -1,0 +1,16 @@
+<view class='takeout-header'>
+  <image bindtap='tapHead' class='header-img' mode='widthFix' src='{{headerImg}}' />
+  <view class='nickName'>{{nickName}}</view>
+  <text class='address' bindtap='addressManage'>{{address}}</text>
+  <view class='clearfix'>
+    <input class='searchInput'
+      confirm-type='search'
+      placeholder-class='placeholderStyle'
+      placeholder='✎搜索商家、商品名称'
+      value='{{inputVal}}'
+    />
+  </view>
+  <scroll-view class='alwaysBox' scroll-x>
+    <block wx:for='{{alwaysList}}' wx:key='{{index}}'><view class='alwaysIntro'>{{item}}</view></block>
+  </scroll-view>
+</view>

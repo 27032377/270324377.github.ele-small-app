@@ -1,0 +1,28 @@
+@import '/pages/src/assets/fonts/font01/iconfont.wxss';
+.vip-box {
+  margin: 0 20rpx;
+  padding: 0 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #FFFFCC;
+}
+.vip-box > .vtext-1{
+  font-size: 16px;
+  color: #242424;
+}
+.vtext-2{
+  font-size: 12px;
+  color: #996600;
+}
+.money-til{
+  display: inline-block;
+  float: right;
+}
+.vtext-3 {
+  font-size: 16px;
+  color: #FF9900;
+}
+.vtext-4{
+  font-size: 12px;
+  color: #996600;  
+}

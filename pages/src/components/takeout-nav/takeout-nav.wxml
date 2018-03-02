@@ -1,0 +1,8 @@
+<swiper class='swiper' indicator-active-color='#3366FF' indicator-dots>
+  <swiper-item>
+    <nav-component bindnavTap='tapEvent' listData='{{logoList1}}'></nav-component>
+  </swiper-item>
+  <swiper-item>
+    <nav-component bindnavTap='tapEvent' listData='{{logoList2}}'></nav-component>
+  </swiper-item>
+</swiper>

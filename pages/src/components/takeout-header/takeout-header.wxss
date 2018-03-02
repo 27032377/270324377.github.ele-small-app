@@ -1,0 +1,56 @@
+/* @import '/pages/src/assets/fonts/font01/iconfont.wxss'; */
+.takeout-header{
+  height: 260rpx;
+  background-color: #3366FF;
+  width: 100%;
+  color: #fff;
+}
+.header-img{
+  border-radius: 100%;
+  background-color: #fff;
+  height: 120rpx;
+  width: 120rpx;
+  float: left;
+  margin-left: 20rpx;
+}
+.address {
+  height: 120rpx;
+  line-height: 120rpx;
+  margin-right: 20rpx;
+  float: right;
+}
+.nickName{
+  float: left; 
+  height: 120rpx;
+  line-height: 120rpx;
+}
+:host{
+  font-size: 12px;
+}
+.clearfix{
+  clear: both;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+}
+.searchInput{
+  background-color: #fff;
+  margin: 0 20rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  color:#000;
+}
+.placeholderStyle{
+  text-align: center;
+}
+.alwaysIntro{
+  padding: 0 20rpx;
+  display: inline-block; 
+}
+.alwaysBox{
+  margin-top: 20rpx;
+  height: 50rpx;
+  display: flex; 
+  white-space: nowrap;
+}

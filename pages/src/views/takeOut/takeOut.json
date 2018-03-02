@@ -1,0 +1,9 @@
+{
+  "usingComponents":{
+    "takeout-header":"/pages/src/components/takeout-header/takeout-header",
+    "takeout-swiper":"/pages/src/components/takeout-swiper/takeout-swiper",
+    "takeout-nav":"/pages/src/components/takeout-nav/takeout-nav",
+    "text-picture":"/pages/src/components/text-picture/text-picture"
+  },
+  "navigationBarTitleText":"外卖"
+}
