@@ -1,0 +1,18 @@
+<view class='find-recommend'>
+  <block wx:for='{{list}}' wx:key='{{index}}'>
+    <view class='w50 wrap'>
+      <view class='po-re'>
+        <image class='w100' mode='widthFix' src='{{item.path}}' />
+        <view class='po-ab w100 tc fs12 cf intro-fix'>根据您的下单历史为你推荐</view>
+      </view>
+      <view class='text-box'>
+        <view class='fs14 fwb'>{{item.name}}</view>
+        <view><text class='fs12 c9' decode='{{true}}'>月售{{item.soldout}}份&nbsp;&nbsp;&nbsp;好评率{{percent}}</text></view>
+        <view class='c-red'>
+          <text class='fs12'>￥</text><text decode='{{true}}' class='fwb fs14'>{{item.price}} &nbsp;&nbsp;</text>
+          <view class='sale-intro fs12 mb10'>{{item.discount}}</view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

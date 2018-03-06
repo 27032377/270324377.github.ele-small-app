@@ -1,0 +1,8 @@
+<map
+  class='map'
+  latitude='{{latitude}}'
+  longitude='{{longitude}}'
+  markers='{{markers}}'
+  scale='18'
+  bindtap='tapEvent'
+></map>

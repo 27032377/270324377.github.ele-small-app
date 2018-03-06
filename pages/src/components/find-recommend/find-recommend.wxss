@@ -1,0 +1,26 @@
+@import '/pages/src/assets/fonts/font02/index.wxss';
+
+.find-recommend {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro-fix {
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  height: 45rpx;
+  line-height: 45rpx;
+}
+.sale-intro {
+  display: inline-block;
+  padding: 0 10rpx;
+  border: 1px solid red;
+  border-radius: 10%;
+}
+.text-box {
+  border-bottom: 1px dashed #999;
+  line-height: 40rpx;
+}
+.wrap{
+  padding: 20rpx 10rpx;
+  box-sizing: border-box;
+}
