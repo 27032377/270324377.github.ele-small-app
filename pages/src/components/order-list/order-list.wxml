@@ -1,0 +1,30 @@
+<view class='order-com'>
+  <block wx:for='{{list}}' wx:key='{{index}}'>
+    <view
+      bindtouchstart='touchStart'
+      bindtouchend='touchEnd'
+      class='wrap'
+      data-id='food-{{index}}'
+    >
+      <view class='intro-box'>
+        <image class='w20 image' mode='widthFix' src='{{item.path}}' />
+        <view class='w80'>
+          <view class='state-box'>
+            <view class='iconfont icon-you fwb' style='font-size:16px;'>{{item.seller}} </view>
+            <view class='sendIng' wx:if='{{!!item.ing}}'>订单送达中</view>            
+            <view wx:else>订单已完成</view> 
+          </view>
+          <view class='fs12 c9'>{{item.time}}</view>
+        </view>
+      </view>
+      <view class='content-box'>
+        <view>{{item.goods}}</view>
+        <view class='fwb'>￥{{item.price}}</view>
+      </view>
+      <view class='mt20 clearfix'>
+        <view class='btn'>再来一单</view>
+        <view class='btn'>相似商家</view>
+      </view>
+    </view>
+  </block>
+</view>

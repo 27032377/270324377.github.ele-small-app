@@ -1,0 +1,9 @@
+<view class='modal-box' style='height:{{domHeight}}px;' hidden='{{!isShow}}'>
+  <view class='modal-content'>
+    <view class='title'>{{title}}</view>
+    <view class='btn-box'>
+      <view class='btn border' bindtap='sure'>确定</view>
+      <view class='btn' bindtap='cancel'>取消</view>
+    </view>
+  </view>
+</view>

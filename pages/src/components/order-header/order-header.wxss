@@ -1,0 +1,32 @@
+@import '/pages/src/assets/fonts/font02/index.wxss';
+@import '/pages/src/assets/fonts/font01/iconfont.wxss';
+
+.order-com{
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+}
+.til-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.sale{
+  padding: 5rpx;
+  border: 1px solid red;
+  border-radius: 1px;
+}
+.intro{
+  padding: 10rpx 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.logo-box{
+  display: flex;
+  white-space: nowrap;
+}
+.logo-detail{
+  display: inline-block;
+  margin: 0 10rpx;
+}

@@ -1,0 +1,15 @@
+<view class='order-com'>
+  <view class='til-box'>
+    <view class='fs14 fwb'>附近买过</view>
+    <view class='fs12 c9 icon-you iconfont'>共8家</view>
+  </view>
+  <scroll-view class='logo-box' scroll-x>
+    <block wx:for='{{navList}}' wx:key='{{index}}'>
+      <view class='w20 fs12 tc logo-detail'>
+        <image class='w100' mode='widthFix' src='{{item.path}}' />
+        <view class='intro'>{{item.name}}</view>
+        <view class='c-red sale'>{{item.sale}}</view>
+      </view>
+    </block>
+  </scroll-view>
+</view>

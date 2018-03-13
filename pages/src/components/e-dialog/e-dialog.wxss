@@ -1,0 +1,36 @@
+.modal-box{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+.modal-content {
+  background: #fff;
+  font-size: 14px;
+  text-align: center;
+  position: fixed;
+  z-index: 11;
+  width: 60%;
+  left: 20%;
+  top: 40%;
+}
+.btn-box {
+  display: flex;
+  color: #3366FF;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.title {
+  padding: 30rpx 20rpx;
+}
+.btn {
+  width: 50%;
+  box-sizing: border-box;
+  border-top: 1px solid #3366ff;
+}
+.border {
+  border-right: 1px solid #3366FF;
+}

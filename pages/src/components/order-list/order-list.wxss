@@ -1,0 +1,41 @@
+@import '../../assets/fonts/font02/index.wxss';
+@import '/pages/src/assets/fonts/font01/iconfont.wxss';
+
+.intro-box{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.state-box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.image{
+  margin-right: 20rpx;
+  box-sizing: border-box;
+}
+.wrap {
+  font-size: 14px;
+  padding: 20rpx;
+}
+.content-box{
+  margin: 20rpx 0 0 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.btn {
+  float: right;
+  padding: 10rpx;
+  border: 1px solid #3366FF;
+  margin: 0 10rpx;
+  color: #3366FF;
+  border-radius: 4px;
+}
+.sendIng {
+  padding: 5rpx 10rpx;
+  border: 1px solid red;
+  color: red;
+  font-size: 12px;
+  border-radius: 2px;
+}
